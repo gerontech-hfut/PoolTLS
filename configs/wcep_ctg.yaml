@@ -1,0 +1,72 @@
+dataset: wcep_ctg
+method_name: PoolTLS
+seed: 42
+
+paths:
+  data_root: ../dataset/WCEP-CTG
+  base_model: ../models/Meta-Llama-3.1-8B-Instruct
+  gte_model: ../models/gte-large  # Local GTE-large weights, configuration, and tokenizer.
+  cross_encoder_model: ../models/ms-marco-MiniLM-L-6-v2
+
+embedding:
+  batch_size: 32
+  max_length: 512
+  chunk_overlap: 64
+
+stage1:
+  retrieval_semantic_weight: 0.65
+  retrieval_word_f1_weight: 0.25
+  retrieval_temporal_weight: 0.10
+  support_verifier_max_new_tokens: 16
+  empty_article_ratio: 0.05
+  require_explicit_target_name: false
+  max_sequence_length: 32768
+  max_input_tokens: 24576
+  max_new_tokens: 4096
+  generation_batch_size: 8
+  temperature: 0.0
+  epochs: 3.0
+  learning_rate: 0.0001
+  train_batch_size: 1
+  gradient_accumulation_steps: 8
+  lora_rank: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  attention: flash_attention_2
+  attention_fallback: sdpa
+
+clustering:
+  semantic_threshold: 0.90
+  word_f1_threshold: 0.70
+  semantic_weight: 0.75
+
+supervision:
+  semantic_weight: 0.55
+  positive_threshold: 0.55
+  negative_threshold: 0.50
+  negative_screening: global_cross_constraint
+  include_reference_positives: false
+
+cross_encoder:
+  pair_order: constraint_event
+  max_length: 192
+  train_batch_size: 32
+  evaluation_batch_size: 256
+  max_epochs: 5
+  learning_rates: [0.00001]
+  weight_decay: 0.01
+  gradient_clip: 1.0
+  seeds: [42]
+
+fusion:
+  normalize: percentile_rank
+  cross_weight_start: 0.50
+  cross_weight_stop: 0.50
+  cross_weight_step: 0.01
+  default_cross_weight: 0.50
+  selection_metric: geometric_mean_f1
+
+decoding:
+  budget_source: reference_event_count
+  allow_event_sharing: true
+  chronological_sort: true

@@ -1,0 +1,40 @@
+{"topic_id":"California","constraint_id":0,"constraint":"Focus on California’s state sovereignty, electoral participation, and changes in political leadership or eligibility for public office."}
+{"topic_id":"California","constraint_id":1,"constraint":"Focus on criminal justice, court rulings, and civil litigation involving California authorities, institutions, or cases heard in the state."}
+{"topic_id":"California","constraint_id":2,"constraint":"Focus on California’s public safety incidents, natural disasters, and measures to investigate, prevent, or respond to their harms."}
+{"topic_id":"California","constraint_id":3,"constraint":"Focus on military tests and operations launched from California or involving its military facilities in cross-border missions."}
+{"topic_id":"California","constraint_id":4,"constraint":"Focus on scientific research and technological development in California, including experimental transport and space launches."}
+{"topic_id":"Canada","constraint_id":0,"constraint":"Focus on Canadian elections, political leadership and domestic government policy, including public demands and official accountability."}
+{"topic_id":"Canada","constraint_id":1,"constraint":"Focus on criminal justice, legal status and enforcement involving Canadian authorities or Canadian citizens."}
+{"topic_id":"Canada","constraint_id":2,"constraint":"Focus on major accidents and natural disasters affecting Canada, Canadian people or assets, including rescue and official investigations."}
+{"topic_id":"Canada","constraint_id":3,"constraint":"Focus on Canada’s diplomatic relations and international cooperation, including intergovernmental agreements, disputes and coordinated security measures."}
+{"topic_id":"Canada","constraint_id":4,"constraint":"Focus on the study, conservation and management of Canada’s natural environment and natural heritage."}
+{"topic_id":"Germany","constraint_id":0,"constraint":"Focus on elections, party leadership and executive decisions shaping Germany’s domestic governance and political accountability."}
+{"topic_id":"Germany","constraint_id":1,"constraint":"Focus on criminal investigations, judicial proceedings and enforcement by German authorities or directly involving German people and companies."}
+{"topic_id":"Germany","constraint_id":2,"constraint":"Focus on violent security threats affecting Germany, its nationals or facilities, including counterterrorism and protection from wartime explosives."}
+{"topic_id":"Germany","constraint_id":3,"constraint":"Focus on Germany’s relations with other countries through migration policy, security cooperation and disputes over state conduct."}
+{"topic_id":"Germany","constraint_id":4,"constraint":"Focus on Germany’s economy and business activity, including investment, restructuring, market conditions and commercial regulation."}
+{"topic_id":"Islamic_State_of_Iraq_and_the_Levant","constraint_id":0,"constraint":"Focus on government strategies, official assessments of territorial defeat, and political accountability arising from ISIL’s activities."}
+{"topic_id":"Islamic_State_of_Iraq_and_the_Levant","constraint_id":1,"constraint":"Focus on investigations, legal proceedings, and detention or citizenship measures concerning alleged ISIL activity or treatment of its captives."}
+{"topic_id":"Islamic_State_of_Iraq_and_the_Levant","constraint_id":2,"constraint":"Focus on ISIL-linked violence and security operations against the group, including territorial battles and the fate of captives."}
+{"topic_id":"Islamic_State_of_Iraq_and_the_Levant","constraint_id":3,"constraint":"Focus on international cooperation and disputes over fighting ISIL and responsibility for captured fighters and their families."}
+{"topic_id":"Islamic_State_of_Iraq_and_the_Levant","constraint_id":4,"constraint":"Focus on restoring cultural heritage and civilian communities damaged by ISIL rule."}
+{"topic_id":"Japan","constraint_id":0,"constraint":"Focus on Japan’s domestic political leadership, elections, imperial succession, and government decisions on civic or indigenous rights."}
+{"topic_id":"Japan","constraint_id":1,"constraint":"Focus on criminal investigations, judicial decisions, and acknowledged regulatory misconduct involving Japanese authorities, citizens, or companies."}
+{"topic_id":"Japan","constraint_id":2,"constraint":"Focus on disasters, serious accidents, and violent incidents in Japan or nearby waters, including warnings, rescue, and casualties."}
+{"topic_id":"Japan","constraint_id":3,"constraint":"Focus on Japan’s diplomatic relations, international agreements, security cooperation, and foreign military activity directly entering or threatening Japanese territory."}
+{"topic_id":"Japan","constraint_id":4,"constraint":"Focus on scientific research and technology projects involving Japan or Japanese participants."}
+{"topic_id":"North_Korea","constraint_id":0,"constraint":"Focus on North Korean political leadership, senior appointments, internal discipline, and state-policy commitments."}
+{"topic_id":"North_Korea","constraint_id":1,"constraint":"Focus on detention, punishment, and legal proceedings involving North Korean authorities, nationals, or diplomats."}
+{"topic_id":"North_Korea","constraint_id":2,"constraint":"Focus on North Korean military activity and attributed state-linked security threats, including missile tests, war warnings, and cyberattacks."}
+{"topic_id":"North_Korea","constraint_id":3,"constraint":"Focus on North Korea’s nuclear confrontation and diplomatic engagement, including weapons developments, sanctions, and inter-Korean cooperation."}
+{"topic_id":"North_Korea","constraint_id":4,"constraint":"Focus on scientific assessments of risks and physical effects associated with North Korea’s nuclear programme."}
+{"topic_id":"United_Kingdom","constraint_id":0,"constraint":"Focus on UK constitutional governance, elections, political leadership, and domestic disputes over government policy."}
+{"topic_id":"United_Kingdom","constraint_id":1,"constraint":"Focus on legal accountability and law enforcement involving British institutions, nationals, residents, detainees, or alleged agents."}
+{"topic_id":"United_Kingdom","constraint_id":2,"constraint":"Focus on security threats and public-safety emergencies affecting the UK, British nationals, or British operations, including assessments and emergency responses."}
+{"topic_id":"United_Kingdom","constraint_id":3,"constraint":"Focus on UK foreign relations and Brexit arrangements, including cross-border disputes over sovereignty, security, and British nationals or institutions."}
+{"topic_id":"United_Kingdom","constraint_id":4,"constraint":"Focus on the UK economy, business restructuring, financial regulation, employment, and the development or management of economic infrastructure."}
+{"topic_id":"United_Nations","constraint_id":0,"constraint":"Focus on leadership appointments, representation and changes to the authority or operation of United Nations institutions."}
+{"topic_id":"United_Nations","constraint_id":1,"constraint":"Focus on United Nations investigations and assessments of alleged human-rights violations and unlawful treatment of individuals."}
+{"topic_id":"United_Nations","constraint_id":2,"constraint":"Focus on United Nations assessments and responses to armed conflict, displacement and humanitarian emergencies."}
+{"topic_id":"United_Nations","constraint_id":3,"constraint":"Focus on international negotiations, agreements, sanctions and diplomatic disputes conducted through or directly involving the United Nations."}
+{"topic_id":"United_Nations","constraint_id":4,"constraint":"Focus on United Nations initiatives to preserve cultural heritage threatened or damaged by armed conflict."}
